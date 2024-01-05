@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+ <TextView
+     android:id="@+id/homeText"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20dp"
+     android:text="@string/home_text"
+     android:textAlignment="center"
+     android:textAppearance="?android:attr/textAppearanceLarge"
+     android:textSize="34sp" />
+
+ <ImageView
+     android:id="@+id/profileImage"
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:importantForAccessibility="no"
+     android:scaleType="centerCrop" />
+
+ <TextView
+     android:id="@+id/greetingText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20dp"
+     android:textAppearance="?android:attr/textAppearanceLarge"
+     android:textSize="24sp" />
+
+ <Button
+     android:id="@+id/logoutButton"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="16dp"
+     android:text="@string/logout_btn" />
+
+ <TextView
+     android:id="@+id/subjectsTitle"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="30dp"
+     android:text="@string/subjects_title"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:textSize="20sp" />
+
+ <ListView
+     android:id="@+id/subjectList"
+     android:layout_width="match_parent"
+     android:layout_height="194dp" />
+
+ <TextView
+     android:id="@+id/rolesTitle"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="30dp"
+     android:text="@string/roles_title"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:textSize="20sp" />
+
+ <ListView
+     android:id="@+id/roleList"
+     android:layout_width="match_parent"
+     android:layout_height="74dp" />
+
+</LinearLayout>

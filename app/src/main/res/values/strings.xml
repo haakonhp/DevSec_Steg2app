@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Steg 2</string>
+    <string name="email_hint">E-post</string>
+    <string name="comment_hint">Skriv kommentar</string>
+    <string name="password_hint">Passord</string>
+    <string name="login_btn">Logg inn</string>
+    <string name="signup_btn">Registrer en ny bruker</string>
+    <string name="toast_login_success">Logg inn Suksess</string>
+    <string name="toast_login_failed">Logg inn Feilet</string>
+    <string name="login_text">Velkommen</string>
+    <string name="home_text">Hjem</string>
+    <string name="greeting_text">Hei Student!</string>
+    <string name="logout_btn">Logg ut</string>
+    <string name="submit_btn">Svar</string>
+    <string name="subjects_title">Dine Emner:</string>
+    <string name="roles_title">Dine Roller:</string>
+    <string name="comments_title">Kommentarer:</string>
+    <string name="comments_btn">Lag ny kommentar:</string>
+    <string name="comments_reply_btn">Kommenter</string>
+    <string name="back_btn">Trykk her for å gå tilbake til hovedsiden:</string>
+    
+</resources>

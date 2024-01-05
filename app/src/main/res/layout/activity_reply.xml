@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/reply_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_btn" />
+
+    <TextView
+        android:id="@+id/reply_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reply text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/comment_field"
+        android:layout_width="351dp"
+        android:layout_height="78dp"
+        android:autofillHints="AUTOFILL_HINT_EMAIL_ADDRESS"
+        android:hint="@string/comment_hint"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_btn"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/comment_sent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
